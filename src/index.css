@@ -1,0 +1,113 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  background-color: #f1f0f0;
+}
+
+main {
+  width: 80%;
+  margin: 50px;
+}
+
+.to-do-list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+}
+
+.add-to-do i {
+  transform: rotate(0.5turn);
+  color: #ccc;
+}
+
+.todo i {
+  color: rgb(207, 199, 199);
+}
+
+#title i {
+  display: flex;
+  flex-direction: column;
+  color: rgb(207, 199, 199);
+}
+
+#title h3 {
+  margin: 0;
+}
+
+.to-do-list > * {
+  display: flex;
+  border-bottom: 1px solid rgb(248, 247, 247);
+  flex: 1;
+  padding: 1rem;
+}
+
+.title {
+  justify-content: space-between;
+  align-items: center;
+}
+
+#form {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-to-do {
+  justify-content: space-between;
+}
+
+.add-to-do input {
+  border: 1px hidden;
+  flex-basis: 90%;
+  font-size: 1rem;
+  color: #000;
+}
+
+.add-to-do input[placeholder] {
+  font-style: italic;
+}
+
+#clear-completed {
+  display: flex;
+  background-color: rgb(177, 174, 174);
+  justify-content: center;
+}
+
+#clear {
+  border: 1px hidden;
+  background-color: rgb(177, 174, 174);
+  text-align: center;
+  font-size: 1rem;
+}
+
+.list-section {
+  display: none;
+  padding: 0;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgb(248, 247, 247);
+  flex: 1;
+  padding: 1rem;
+}
+
+.todo div {
+  flex-basis: 90%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.todo p {
+  flex-basis: 95%;
+  margin: 0;
+  color: #000;
+  font-size: 1.2rem;
+}
